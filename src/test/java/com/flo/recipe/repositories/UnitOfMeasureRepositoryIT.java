@@ -39,10 +39,10 @@ public class UnitOfMeasureRepositoryIT {
         assertEquals("Cup", uomOptional.get().getDescription());
     }
 
-    @Test
-    public void findByDescriptionMo() throws Exception {
-        Optional<UnitOfMeasure> uomOptional = unitOfMeasureRepository.findByDescription("Mo");
-
-        assertEquals("Mo", uomOptional.get().getDescription());
-    }
+//    @Test
+//    public void findByDescriptionMo() throws Exception {
+//        Optional<UnitOfMeasure> uomOptional = unitOfMeasureRepository.findByDescription("Mo");
+//
+//        assertEquals("Mo", uomOptional.get().getDescription());
+//    }
 }
